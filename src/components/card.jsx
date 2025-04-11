@@ -7,7 +7,7 @@ export function Card(props) {
             <button className="bg-[#000] cursor-pointer text-[#fff] flex w-[70%] items-center justify-center gap-[10px]"><IoIosCart />  Add To Cart</button>
             <div className="card-txt flex flex-col items-start">
                 <h3>{props.name}</h3>
-                <h6>{props.price}$</h6>
+                <h6 className="text-[#DB4444]">{props.price}$</h6>
             </div>
         </div>
     )
